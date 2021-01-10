@@ -1,5 +1,5 @@
 .text
-    .code
+    .code 32
     
     .global vector_start
     .global vector_end

@@ -5,8 +5,8 @@ SECTIONS
 
         .text :
         {
-            *vector(vector_start)
-            *(,text .rodata)
+            *(vector_start)
+            *(.text .rodata)
         }
         .data :
         {
